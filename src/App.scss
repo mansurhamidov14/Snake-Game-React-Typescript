@@ -1,0 +1,45 @@
+$base: 16px;
+
+.position-absolute {
+    position: absolute;
+}
+
+.z-1 {
+    z-index: 1;
+}
+.z-2 {
+    z-index: 2;
+}
+
+.screen {
+    width: 40 * $base;
+    height: 24 * $base;
+    border: 1px solid green;
+}
+
+.screen-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.screen-dot {
+    width: $base;
+    height: $base;
+    box-sizing: border-box;
+
+    &.dermo {
+        border: 0.5px solid #EAEAEA; 
+    }
+
+    &__active {
+        background: green;
+        border-width: 0;
+    }
+
+    &__danger {
+        background: orange;
+        border: 3px solid red !important;
+        border-radius: 50%;
+    }
+}
+
