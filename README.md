@@ -1,3 +1,6 @@
+![snake_game](https://user-images.githubusercontent.com/34154535/142384753-c366a5ec-96d2-4653-baf4-7ef49e1039ac.gif)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
